@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="task_1">
+        <nav>
+            <a href="#task_2">CV</a>
+            <a href="#task_3">Omiljeni filmovi</a>
+            <a href="#task_4">Prijava za posao</a>
+        </nav>
+    </div>
+    <div id="task_2">
+        <h1>CV</h1>
+        <img src="profilna.png" alt="Profilna slika" height="100px" width="100px">
+        <h2>Licne osobine</h2>
+        <p>Ime i prezime: Filip Kruska</p>
+        <p>Adresa: Bistricka 22</p>
+        <p>Broj telefona: +38266555555</p>
+        <p>Facebook: <a href="www.facebook.com" target="_blank">Filip Kruska</a></p>
+        <h2>Poznavanje programskih jezika</h2>
+        <ul>
+            <li>Java</li>
+            <li>Python</li>
+            <li>Javascript</li>
+            <li>SQL</li>
+            <li>PHP</li>
+            <li>C#</li>
+        </ul>
+        <h2>Obrazovanje</h2>
+        <p>Fakultet za informacione sisteme i tehnologije - <strong>Univerzitet Donja Gorica</strong> <br><i>(2017-2021)</i></p>
+        <h2>Prethodno iskustvo</h2>
+        <p>Korisnik programa strucnog osposobljavanja u <strong>IPC Tehnopolis </strong> u periodu od <strong>15. januara</strong> do <strong>15. oktobra</strong>  2021. godine</p>
+        <h2>Strani jezici</h2>
+        <ol type="a">
+            <li>Engleski</li>
+            <li>Spanski</li>
+            <li>Ruski</li>
+        </ol>
+    </div>
+    <div id="task_3">
+        <table>
+            <caption>Omiljeni filmovi</caption>
+            <tr>
+                <th>Ime filma</th>
+                <th>Kratak opis</th>
+                <th>Zanr</th>
+                <th>Datum izlaska</th>
+                <th>Cover slika</th>
+                <th>Link</th>
+            </tr>
+            <tr>
+                <td>The Shawshank Redemption</td>
+                <td>Based on a Stephen King story, the film is told over several years at the titular prison and centers on a friendship between two inmates.</td>
+                <td>Crimi, Drama</td>
+                <td>1994</td>
+                <td><img src="./shawshank.png" alt="The Shawshank Redemption" height="80px"></td>
+                <td><a href="https://www.imdb.com/title/tt0111161/">Detaljniji opis</a> </td>
+            </tr>
+            <tr>
+                <td>The Godfather</td>
+                <td>This is the story of the Corleone family, an Italian-American mafia family who struggle with maintaining power after their patriarch is nearly assassinated.</td>
+                <td>Crimi</td>
+                <td>1972</td>
+                <td><img src="./godfather.png" alt="The Godfather" height="80px"></td>
+                <td><a href="https://www.imdb.com/title/tt0068646/?ref_=nv_sr_srsg_0" >Detaljniji opis</a> </td>
+            </tr>
+            <tr>
+                <td>The Godfather: Part II</td>
+                <td>Without Marlon Brando returning for his iconic role, the film tells the story of young Vito Corleone, played by Robert De Niro who makes the role his own.</td>
+                <td>Crimi</td>
+                <td>1974</td>
+                <td><img src="./godfather2.png" alt="The Godfather 2" height="80px"></td>
+                <td><a href="https://www.imdb.com/title/tt0071562/?ref_=nv_sr_srsg_3">Detaljniji opis</a> </td>
+            </tr>
+            <tr>
+                <td>The Dark Knight</td>
+                <td>The Dark Knight details Batman's desperate attempt to stop Joker from destroying Gotham as he searches for someone to take up the role of the city's protector.</td>
+                <td>Action, Trailer</td>
+                <td>2008</td>
+                <td><img src="./darkknight.png" alt="The Dark Knight" height="80px"></td>
+                <td><a href="https://www.imdb.com/title/tt0468569/?ref_=nv_sr_srsg_0">Detaljniji opis</a> </td>
+            </tr>
+            <tr>
+                <td>Schindler's List</td>
+                <td>Schindler's List is a harrowing story of the real-life tale of Oskar Schindler and his attempts to save Jewish citizens during the Nazi rule in Germany.</td>
+                <td>War, History</td>
+                <td>1993</td>
+                <td><img src="./schindler.png" alt="Schindler's List" height="80px"></td>
+                <td><a href="https://www.imdb.com/title/tt0108052/?ref_=nv_sr_srsg_0">Detaljniji opis</a> </td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <div id="task_4">
+        <form method="get">
+            <table>
+                <caption>Job Application With Resume Upload</caption>
+                <tr>
+                    <td colspan="2">Contact Information</td>
+                </tr>
+                <tr>
+                    <td><label for="first_name">First name</label></td>
+                    <td><label for="last_name">Last name</label></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="first_name" id="first_name" required></td>
+                    <td><input type="text" name="last_name" id="last_name" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><label for="email">Email</label></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="email" name="email" id="email" required size="50"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><label for="phone">Phone:</label></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="tel" name="phone" id="phone" required size="50"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">Position</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><label for="position">Position you are applying for</label></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <select name="position" id="position">
+                            <option value="nodejs">Backend NodeJS</option>
+                            <option value="python">Backend Python</option>
+                            <option value="react" selected>Frontend React</option>
+                            <option value="angular">Frontend Angular</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><label for="upload">Resume upload</label></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="file" name="upload" id="upload" accept=".pdf" size="50"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><label for="portfolio">Portfolio website</label></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="url" name="portfolio" id="portfolio" size="50"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><label for="salary">Salary requirments</label></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="number" name="salary" id="salary"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><label for="start">When can you start?</label></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="text" name="start" id="start" size="50"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">Are you witing to retocate</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="radio" name="retocate" id="yes" value="yes"><label for="yes">Yes</label></td>
+                </tr>
+                <tr>
+                   <td colspan="2"><input type="radio" name="retocate" id="no" value="no"> <label for="no">No</label></td>
+                </tr>
+                <tr>
+                   <td colspan="2"><input type="radio" name="retocate" id="not_sure" value="not_sure"><label for="not_sure">Not sure</label></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><label for="company">Last company you worked for</label></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="text" name="company" id="company" size="50"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><label for="comments">Comments</label></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><textarea name="comments" id="comments" cols="50" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" name="submit" id="submit"></td>
+                </tr>
+            </table>    
+        </form>
+    </div>
+</body>
+</html>
